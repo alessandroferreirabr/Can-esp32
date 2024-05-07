@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/Users/ale/esp/v5.2.1/esp-idf/components/bootloader/subproject"
-  "C:/esp32-projects/hello_world/build/bootloader"
-  "C:/esp32-projects/hello_world/build/bootloader-prefix"
-  "C:/esp32-projects/hello_world/build/bootloader-prefix/tmp"
-  "C:/esp32-projects/hello_world/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/esp32-projects/hello_world/build/bootloader-prefix/src"
-  "C:/esp32-projects/hello_world/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/esp32-projects/Can-esp32/build/bootloader"
+  "C:/esp32-projects/Can-esp32/build/bootloader-prefix"
+  "C:/esp32-projects/Can-esp32/build/bootloader-prefix/tmp"
+  "C:/esp32-projects/Can-esp32/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/esp32-projects/Can-esp32/build/bootloader-prefix/src"
+  "C:/esp32-projects/Can-esp32/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/esp32-projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/esp32-projects/Can-esp32/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/esp32-projects/hello_world/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/esp32-projects/Can-esp32/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -1,4 +1,4 @@
-# Install script for directory: C:/esp32-projects/hello_world/main
+# Install script for directory: C:/esp32-projects/Can-esp32/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
