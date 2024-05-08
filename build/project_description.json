@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "hello_world",
-    "project_version":    "c74c2dc-dirty",
+    "project_version":    "014ad1d-dirty",
     "project_path":       "C:/esp32-projects/Can-esp32",
     "idf_path":           "C:/Users/ale/esp/v5.2.1/esp-idf",
     "build_dir":          "C:/esp32-projects/Can-esp32/build",

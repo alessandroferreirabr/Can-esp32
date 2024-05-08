@@ -85,7 +85,7 @@ void Can_Task (void *params)
         } else {
             printf("Failed to queue message for transmission\n");
         }
-        vTaskDelay(100/portTICK_PERIOD_MS);
+        vTaskDelay(200/portTICK_PERIOD_MS);
     }
     
 }
